@@ -181,11 +181,12 @@ tagcloud: true
 
 # Blogroll, Link exchange | 友情链接
 friends:
-  #Hexo: https://hexo.io
-  #GitHub: https://pages.github.com/
-  #MOxFIVE: http://moxfive.xyz/
-  Yelee 主题使用说明: http://moxfive.coding.me/yelee/
-  hexo博客主题Yelee迁移笔记: http://durant35.github.io/2016/09/16/hexo_Theme%20Yelee%20Migrant%20Note/#
+  阮一峰的网络日志: http://www.ruanyifeng.com/blog/archives.html
+  R的极客理想系列: http://blog.fens.me/series-r/
+  谢益辉: https://yihui.name/
+  解螺旋的矿工: http://www.huangshujia.me/
+  GuangchuangYu: https://github.com/GuangchuangYu
+  生信技能树: https://vip.biotrainee.com/
 #friends: false
 
 #是否开启“关于我”。

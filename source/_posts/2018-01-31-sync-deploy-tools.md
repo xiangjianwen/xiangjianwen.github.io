@@ -3,6 +3,7 @@ title: Sync deploy 命令工具
 author: 王诗翔
 categories: 开源工具
 date: 2018-01-31 21:05:55
+top: true
 tags:
 ---
 
