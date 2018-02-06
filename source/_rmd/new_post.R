@@ -1,11 +1,11 @@
 # R functions used to create a new post for Hexo blog system.
-new_md_post <- function(post_name=NULL,template_name="template.Rmd",template_path=getwd(), 
-                        post_path=getwd(),time_tag=FALSE){
-    
+new_md_post <- function(template_name="template.Rmd",post_name=NULL,template_path=getwd(),
+                        post_path="../_posts",time_tag=FALSE){
+
     if(is.null(post_name)){
         post_name <- gsub(pattern = "^(.*)\\.[Rr]md$", "\\1", x = template_name)
     }
-    
+
     input_file   <- paste(template_path,template_name, sep="/")
     # retrieve system date
     if(time_tag){
@@ -25,7 +25,7 @@ new_rmd_post <- function(post_name=NULL,template_name="template.Rmd",
     if(is.null(post_name)){
         stop("A post name must be given!")
     }
-    
+
     input_file   <- paste(template_path,template_name, sep="/")
     current_time <- Sys.Date()
     out_file     <- paste0(current_time, "-",post_name,".Rmd")
