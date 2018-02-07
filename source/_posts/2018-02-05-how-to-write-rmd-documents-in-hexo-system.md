@@ -28,11 +28,18 @@ tags:
 
 需要文档代已经提交到Gist上面，可以[点击查看和下载](https://gist.github.com/ShixiangWang/197cbe60c6fa096888b701af72511740)。
 
+
 ## 第一步
 
 创建一个`Rmarkdown`文档模板，这样我们可以非常方便地在每次写新文章时生成YAML头信息。
 
 其内容如下，简单设定标题、作者、日期、目录、标签，你可以根据自己情进行更改：
+
+{% gist 197cbe60c6fa096888b701af72511740 template.Rmd %}
+
+上面Gist文档日期使用了`R`命令,后续我们使用`knit`可以将其自动转换为`markdown`文档生成时的日期。
+
+你可以自己设置，只要符合[头信息规范](https://hexo.io/zh-cn/docs/front-matter.html)即可：
 
 ```
 ---
