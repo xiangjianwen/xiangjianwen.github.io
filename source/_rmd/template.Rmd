@@ -10,7 +10,7 @@ tags:
 
 ```{r init, include=F}
 library(knitr)
-opts_chunk$set(message=FALSE, warning=FALSE, eval=TRUE, echo=TRUE, cache=TRUE, fig.path="../images/", dpi = 300)
+opts_chunk$set(message=FALSE, warning=FALSE, eval=TRUE, echo=TRUE, cache=TRUE, fig.path="../images/", dpi = 75)
 options(digits=3)
 options(max.print=200)
 #.ex <- 1 # Track ex numbers w/ hidden var. Increment each ex: `r .ex``r .ex=.ex+1`
